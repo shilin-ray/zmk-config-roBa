@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W           &kp E         &kp R                        &kp T                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S           &kp D         &kp F                        &kp G        &kp LS(LG(S))      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X           &kp C         &kp V                        &kp B        &kp COLON          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_SHIFT  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &to 1              &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W           &kp E         &kp R                                 &kp T                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S           &kp D         &kp F                                 &kp G        &kp LS(LG(S))      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X           &kp C         &kp V                                 &kp B        &kp COLON          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_SHIFT  &kp LEFT_ALT  &lt_to_layer_0 6 LANG_ZENKAKUHANKAKU  &lt 2 SPACE  &to 1              &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -147,10 +147,10 @@
 
         movie {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                     &kp F5     &kp J     &msc SCRL_UP    &kp L     &kp LC(W)
-&trans  &trans  &trans  &trans  &trans  &trans      &kp G  &kp H      &mkp MB1  &msc SCRL_DOWN  &mkp MB2  &none
-&trans  &trans  &trans  &trans  &trans  &none       &none  &none      &mkp MB4  &mkp MB3        &mkp MB5  &kp C_VOLUME_UP
-&trans  &trans  &trans  &to 6   &to 0   &none       &none  &kp SPACE                                      &kp C_VOL_DN
+&trans  &trans  &trans  &trans  &trans                     &kp F5     &kp J     &msc MOVE_Y(5)   &kp L     &kp LC(W)
+&trans  &trans  &trans  &trans  &trans  &trans      &kp G  &kp H      &mkp MB1  &msc MOVE_Y(-5)  &mkp MB2  &none
+&trans  &trans  &trans  &trans  &trans  &none       &none  &none      &mkp MB4  &mkp MB3         &mkp MB5  &kp C_VOLUME_UP
+&trans  &trans  &trans  &to 6   &to 0   &none       &none  &kp SPACE                                       &kp C_VOL_DN
             >;
         };
     };
