@@ -147,10 +147,10 @@
 
         movie {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                     &kp F5     &kp J     &none     &kp L     &kp LC(W)
-&trans  &trans  &trans  &trans  &trans  &trans      &kp G  &kp H      &mkp MB1  &mkp MB3  &mkp MB2  &none
-&trans  &trans  &trans  &trans  &trans  &none       &none  &none      &mkp MB4  &none     &mkp MB5  &kp C_VOLUME_UP
-&trans  &trans  &trans  &to 6   &to 0   &none       &none  &kp SPACE                                &kp C_VOL_DN
+&trans  &trans  &trans  &trans  &trans                     &kp F5     &kp J     &msc SCRL_UP    &kp L     &kp LC(W)
+&trans  &trans  &trans  &trans  &trans  &trans      &kp G  &kp H      &mkp MB1  &msc SCRL_DOWN  &mkp MB2  &none
+&trans  &trans  &trans  &trans  &trans  &none       &none  &none      &mkp MB4  &mkp MB3        &mkp MB5  &kp C_VOLUME_UP
+&trans  &trans  &trans  &to 6   &to 0   &none       &none  &kp SPACE                                      &kp C_VOL_DN
             >;
         };
     };
